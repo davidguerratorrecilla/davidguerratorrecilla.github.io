@@ -9,11 +9,6 @@ html, body{
 	height:100%;
 }
 
-
-
-
-
-
 ul {
     list-style-type: none;
     margin: 0;
@@ -23,22 +18,23 @@ ul {
 }
 
 #Index{
-	margin-right:50px;
-	float:right;
+	float:right;	
+	margin-right:2%;
 }
 
-li {
+nav > ul >  li  {
     float: left;
     border-right:1px solid white;
 }
 
 li #menu {
-	display: none;
 	position:absolute;
 	background-color:blue;
+	/*border: solid red 5px;*/
+	display:none;
 }
 
- #Index:hover div{
+#Index:hover ul{
 	display:block;
 }
 
@@ -64,8 +60,35 @@ li a:hover:not(.active) {
 
 #contenido{
 	display: flex;
-	padding-top:150px;
+	padding-top:8%;
 	justify-content:center;
 }
 
 
+#title{
+	display:flex;
+	justify-content:center;
+	margin-top:4%;
+}
+
+#footer{
+	color:white;
+	display:flex;
+	justify-content:flex-end;
+	margin-top:10%;
+	padding:2px;
+	background-color:blue;
+}
+
+
+
+
+
+
+
+
+
+
+.mySlides {display:none}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}

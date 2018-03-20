@@ -9,11 +9,6 @@ html, body{
 	height:100%;
 }
 
-
-
-
-
-
 ul {
     list-style-type: none;
     margin: 0;
@@ -23,21 +18,23 @@ ul {
 }
 
 #Index{
-	float:right;
+	float:right;	
+	margin-right:2%;
 }
 
-li {
+nav > ul >  li  {
     float: left;
     border-right:1px solid white;
 }
 
 li #menu {
-	display: none;
 	position:absolute;
 	background-color:blue;
+	/*border: solid red 5px;*/
+	display:none;
 }
 
- #Index:hover div{
+#Index:hover ul{
 	display:block;
 }
 
@@ -61,4 +58,29 @@ li a:hover:not(.active) {
     background-color: black;
 }
 
+#contenido{
+	display: flex;
+	padding-top:8%;
+	justify-content:center;
+}
 
+#sub{
+	display: flex;
+	padding-top:2%;
+	justify-content:center;
+}
+
+#title{
+	display:flex;
+	justify-content:center;
+	margin-top:4%;
+}
+
+#footer{
+	color:white;
+	display:flex;
+	justify-content:flex-end;
+	margin-top:10%;
+	padding:2px;
+	background-color:blue;
+}
